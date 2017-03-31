@@ -1,4 +1,4 @@
 language: go
-script: go get -v && go build
+script: go test && go build
 notifications:
   email: false
